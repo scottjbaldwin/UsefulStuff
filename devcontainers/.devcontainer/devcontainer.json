@@ -1,0 +1,47 @@
+{
+	"name": ".Net Serverless on AWS Development Environment",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers-extra/features/angular-cli:2": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/aws-cli:1": {},
+		"ghcr.io/devcontainers/features/powershell:1": {
+			"modules" : "posh-git, AwsCredentialsManager, powershell-yaml",
+			"powershellProfileURL": "https://raw.githubusercontent.com/scottjbaldwin/UsefulStuff/refs/heads/main/PowershellProfile.ps1"
+		},
+		"ghcr.io/scottjbaldwin/dotnet-lambda-feature/dotnet-lambda:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csharp",
+				"ms-dotnettools.csdevkit",
+				"amazonwebservices.aws-toolkit-vscode",
+				"kddejong.vscode-cfn-lint"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "pwsh",
+				"terminal.integrated.profiles.linux": {
+					"pwsh": {
+						"path": "/usr/bin/pwsh",
+						"args": ["-NoLogo"]
+					}
+				},
+				"dotnet.defaultSolution": "roobookit.sln",
+				"omnisharp.enableRoslynAnalyzers": true
+			}
+		}
+	},
+	"remoteUser": "vscode",
+	"workspaceFolder": "/workspace",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+	"mounts": [
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.aws,target=/home/vscode/.aws,type=bind,consistency=cached",
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/home/vscode/.gitconfig,type=bind,consistency=cached"
+	],
+	"containerEnv": {
+		"AWS_PROFILE": "sbaldwin:dev"
+	}
+}
