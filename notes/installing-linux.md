@@ -18,3 +18,5 @@
 1. Install slack from [here](https://slack.com/intl/en-au/downloads/instructions/linux?ddl=1&build=rpm)
 1. Copy nvim config from this repo into ~/.config/nvim
 1. Install VSCode from [here](https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux)
+1. install pwsh by downloading it from [here](https://github.com/PowerShell/PowerShell/releases/)
+1. Set the default shell using `chsh -s /usr/bin/pwsh`
