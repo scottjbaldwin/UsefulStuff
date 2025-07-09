@@ -16,3 +16,5 @@
 1. Set up stored chrome profiles for carpenocturmnum and sbaldwin
 1. Install neovim `sudo dnf install neovim` 
 1. Install slack from [here](https://slack.com/intl/en-au/downloads/instructions/linux?ddl=1&build=rpm)
+1. Copy nvim config from this repo into ~/.config/nvim
+1. Install VSCode from [here](https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux)
