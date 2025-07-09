@@ -14,3 +14,5 @@
 1. Use kwallet to store github cedentials (using Personal access tokens stored in 1Password)
 1. Install Chrome using rpm
 1. Set up stored chrome profiles for carpenocturmnum and sbaldwin
+1. Install neovim `sudo dnf install neovim` 
+1. Install slack from [here](https://slack.com/intl/en-au/downloads/instructions/linux?ddl=1&build=rpm)
