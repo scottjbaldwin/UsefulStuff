@@ -26,3 +26,5 @@
 1. Install [AWSCredentialsManager](https://github.com/CurtisLusmore/AwsCredentialsManager) using `Install-Module -Name AwsCredentialsManager`
 1. Install angular cli using `sudo npm install -g @angular/cli@19.1.8`
 1. Install dotnet cli `sudo dnf install dotnet-sdk-8.0`
+1. add gitconfig from UsefulStuff repo
+1. Install vscode extensions
