@@ -1,0 +1,27 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = scott.baldwin
+	email = scott.baldwin@purple.telstra.com
+[alias]
+	stat = status -s
+	lo = log --oneline
+	lob = git --no-pager log --oneline
+	logg = log --oneline --graph
+	rbm = rebase main
+	rbmi = rebase main -i
+	com = checkout main
+	mmff = merge main --ff-only
+	u = !git checkout main && git pull && git checkout - && git rebase main
+[core]
+	pager = less -F -X
+	excludesfile = ~/.gitignore_global
+[rebase]
+	autoSquash = 1
+[pull]
+	ff = only
+[credential]
+	useHttpPath = true
