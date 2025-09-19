@@ -24,7 +24,10 @@
 1. Install aws cli using `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"` following instructions from [here](http://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 1. Ensure git stores different credentials for different http paths by executing `git config set --global credential.useHttpPath true`
 1. Install [AWSCredentialsManager](https://github.com/CurtisLusmore/AwsCredentialsManager) using `Install-Module -Name AwsCredentialsManager`
-1. Install angular cli using `sudo npm install -g @angular/cli@19.1.8`
+1. Install angular `npm install -g @angular/cli@19.1.8`
 1. Install dotnet cli `sudo dnf install dotnet-sdk-8.0`
 1. add gitconfig from UsefulStuff repo
+1. Install pip `sudo dnf install python3-pip`
+1. Install cfn-lint cli `pip install cfn-lint`
 1. Install vscode extensions
+1. Download and install [zoom for linux](https://zoom.us/download?os=linux)
