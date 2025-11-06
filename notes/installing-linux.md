@@ -26,8 +26,10 @@
 1. Install [AWSCredentialsManager](https://github.com/CurtisLusmore/AwsCredentialsManager) using `Install-Module -Name AwsCredentialsManager`
 1. Install angular `npm install -g @angular/cli@19.1.8`
 1. Install dotnet cli `sudo dnf install dotnet-sdk-8.0`
+1. Install dotnet lambda tool and blueprints by following instructions from [here](https://github.com/aws/aws-lambda-dotnet?tab=readme-ov-file)
 1. add gitconfig from UsefulStuff repo
 1. Install pip `sudo dnf install python3-pip`
 1. Install cfn-lint cli `pip install cfn-lint`
 1. Install vscode extensions
 1. Download and install [zoom for linux](https://zoom.us/download?os=linux)
+1. Install VLC
