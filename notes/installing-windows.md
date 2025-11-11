@@ -24,3 +24,4 @@
 1. Add C:\Users\sbald\AppData\Local\Python\pythoncore-3.14-64\Scripts to the path to ensure pip.exe is reachable
 1. Install cfn-lint cli `pip install cfn-lint`
 1. Install zoom from [here](https://zoom.us/download?os=win)
+1. Install fork from [here](https://git-fork.com/)
