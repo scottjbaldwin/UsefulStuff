@@ -15,10 +15,10 @@
 1. Install Chrome using rpm
 1. Set up stored chrome profiles for carpenocturmnum and sbaldwin
 1. Install neovim `sudo dnf install neovim` 
-1. Install slack from [here](https://slack.com/intl/en-au/downloads/instructions/linux?ddl=1&build=rpm)
 1. Copy nvim config from this repo into ~/.config/nvim
+1. Install slack from [here](https://slack.com/intl/en-au/downloads/instructions/linux?ddl=1&build=rpm)
 1. Install VSCode from [here](https://code.visualstudio.com/docs/setup/linux#_install-vs-code-on-linux)
-1. install pwsh by downloading it from [here](https://github.com/PowerShell/PowerShell/releases/)
+1. Install pwsh by downloading it from [here](https://github.com/PowerShell/PowerShell/releases/)
 1. Set the default shell using `chsh -s /usr/bin/pwsh`
 1. Install [poshgit](https://github.com/dahlbyk/posh-git)
 1. Install aws cli using `curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"` following instructions from [here](http://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
