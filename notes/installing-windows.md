@@ -19,3 +19,8 @@
 1. Install angular `npm install -g @angular/cli@19.1.8`
 1. Copy gitconfig from UsefulStuff repository
 1. Install the .Net 8.0 SDK from [here](https://dotnet.microsoft.com/en-us/download)
+1. Install python for windows from [here](https://www.python.org/downloads/windows/)
+1. Install pip by following [these instructions](https://pip.pypa.io/en/stable/installation/)
+1. Add C:\Users\sbald\AppData\Local\Python\pythoncore-3.14-64\Scripts to the path to ensure pip.exe is reachable
+1. Install cfn-lint cli `pip install cfn-lint`
+1. Install zoom from [here](https://zoom.us/download?os=win)
